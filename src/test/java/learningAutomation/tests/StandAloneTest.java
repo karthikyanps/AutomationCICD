@@ -22,7 +22,7 @@ public class StandAloneTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		//new components are added
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
